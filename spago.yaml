@@ -1,0 +1,31 @@
+package:
+  name: concurrent-queues
+  publish:
+    license: Apache-2.0
+    version: 3.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-concurrent-queues
+  dependencies:
+    - aff
+    - arrays
+    - avar
+    - effect
+    - maybe
+    - partial
+    - prelude
+    - unfoldable
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - control
+      - either
+      - integers
+      - transformers
+      - tuples
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
